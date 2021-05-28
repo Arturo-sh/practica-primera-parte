@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Iniciar sesion</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="login_style.css">
+	<link rel="stylesheet" href="icons/css/table.css">
+</head>
+<body>
+	<div class="contenedor">
+		<form class="form" action="user_validator.php" method="post">
+			<legend>Iniciar sesion</legend>
+			<label><span class="icon-user-circle"></span>Usuario:</label>
+			<input type="text" name="usuario" class="usuario" placeholder="Nombre de Usuario" required=""><br>
+			<label><span class="icon-key"></span>Contraseña:</label>
+			<input type="password" name="clave" class="contraseña" placeholder="Contraseña" required="">
+			<input class="submit" type="submit" value="Login">
+			<p>¿No tienes una cuenta? <a href="#">Cree una aquí</a></p>
+		</form>
+	</div>
+</body>
+</html>

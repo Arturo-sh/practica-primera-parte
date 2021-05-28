@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	font-family: sans-serif;
+	background: url("fondo_signup.jpg") no-repeat center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h1{
+	color: #ffff;
+	text-align: center;
+}
+
+.form-register{
+	width: 95%;
+	max-width: 500px;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 7px;
+}
+
+.form-titulo{
+	background: #900c3f;
+	color: #ffff;
+	padding: 20px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 30px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom: 5px solid #1AC732; 
+}
+
+.contenedor-inputs{
+	padding: 10px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+input{
+	margin-bottom: 15px;
+	padding: 15px;
+	font-size: 16px;
+	border-radius: 3px;
+	/*border: 1px solid #8bc925;*/
+	border: 1px solid #108CAB;
+}
+
+.input-48{
+	width: 48%;
+}
+
+.input-100{
+	width: 100%;
+}
+
+.btn-enviar{
+	background:#c45207;
+	color: #ffff;
+	margin: 5px auto 10px;
+	padding: 10px 40px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.btn-enviar:active{
+	transform: scale(1.1);
+}
+
+.form-link{
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	font-size: 14px;
+}
